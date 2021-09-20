@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3E70F626EF1C7B002F79B4 /* addNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E70F526EF1C7B002F79B4 /* addNew.swift */; };
+		CD3E70FC26EF2345002F79B4 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E70FA26EF2345002F79B4 /* Person+CoreDataClass.swift */; };
+		CD3E70FD26EF2345002F79B4 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E70FB26EF2345002F79B4 /* Person+CoreDataProperties.swift */; };
+		CD6126EF26EFD47B0007865D /* FriendHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6126EE26EFD47B0007865D /* FriendHost.swift */; };
+		CD65406026F1D1FC00EA1CC4 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65405F26F1D1FC00EA1CC4 /* Notice.swift */; };
+		CD7485B826EF532200BE7B84 /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7485B726EF532200BE7B84 /* PersonRowView.swift */; };
+		CD7485BB26EF578700BE7B84 /* PersonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7485BA26EF578700BE7B84 /* PersonDetail.swift */; };
+		CD7485C126EF64F700BE7B84 /* FriendSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7485C026EF64F700BE7B84 /* FriendSummary.swift */; };
+		CD8A710726F880E80082B080 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A710626F880E80082B080 /* NotificationManager.swift */; };
+		CD8A710A26F88CF00082B080 /* InfoOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A710926F88CF00082B080 /* InfoOverlayView.swift */; };
 		CDC5010226EEF69500B0D94E /* ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5010126EEF69500B0D94E /* ReminderApp.swift */; };
 		CDC5010426EEF69500B0D94E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5010326EEF69500B0D94E /* ContentView.swift */; };
 		CDC5010626EEF69800B0D94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC5010526EEF69800B0D94E /* Assets.xcassets */; };
 		CDC5010926EEF69800B0D94E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC5010826EEF69800B0D94E /* Preview Assets.xcassets */; };
 		CDC5010B26EEF69800B0D94E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5010A26EEF69800B0D94E /* Persistence.swift */; };
 		CDC5010E26EEF69800B0D94E /* Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDC5010C26EEF69800B0D94E /* Reminder.xcdatamodeld */; };
+		CDC5011826EEFB8600B0D94E /* friendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5011726EEFB8600B0D94E /* friendList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD3E70F526EF1C7B002F79B4 /* addNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNew.swift; sourceTree = "<group>"; };
+		CD3E70FA26EF2345002F79B4 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD3E70FB26EF2345002F79B4 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD6126EE26EFD47B0007865D /* FriendHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendHost.swift; sourceTree = "<group>"; };
+		CD65405F26F1D1FC00EA1CC4 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		CD7485B726EF532200BE7B84 /* PersonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
+		CD7485BA26EF578700BE7B84 /* PersonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetail.swift; sourceTree = "<group>"; };
+		CD7485C026EF64F700BE7B84 /* FriendSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSummary.swift; sourceTree = "<group>"; };
+		CD8A710626F880E80082B080 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		CD8A710926F88CF00082B080 /* InfoOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoOverlayView.swift; sourceTree = "<group>"; };
 		CDC500FE26EEF69500B0D94E /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC5010126EEF69500B0D94E /* ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderApp.swift; sourceTree = "<group>"; };
 		CDC5010326EEF69500B0D94E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +45,7 @@
 		CDC5010A26EEF69800B0D94E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CDC5010D26EEF69800B0D94E /* Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reminder.xcdatamodel; sourceTree = "<group>"; };
 		CDC5010F26EEF69800B0D94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC5011726EEFB8600B0D94E /* friendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD3E70FF26EF2360002F79B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E70FA26EF2345002F79B4 /* Person+CoreDataClass.swift */,
+				CD3E70FB26EF2345002F79B4 /* Person+CoreDataProperties.swift */,
+				CD8A710626F880E80082B080 /* NotificationManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD6126ED26EFD4530007865D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CDC5011726EEFB8600B0D94E /* friendList.swift */,
+				CD7485B726EF532200BE7B84 /* PersonRowView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CD65405E26F1D1D500EA1CC4 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CD65405F26F1D1FC00EA1CC4 /* Notice.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		CD7485BD26EF579100BE7B84 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				CD6126EE26EFD47B0007865D /* FriendHost.swift */,
+				CD7485C026EF64F700BE7B84 /* FriendSummary.swift */,
+				CD7485BA26EF578700BE7B84 /* PersonDetail.swift */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
 		CDC500F526EEF69500B0D94E = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +115,10 @@
 		CDC5010026EEF69500B0D94E /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				CD65405E26F1D1D500EA1CC4 /* Notification */,
+				CD3E70FF26EF2360002F79B4 /* Model */,
+				CDC5011626EEFB4800B0D94E /* View */,
 				CDC5010126EEF69500B0D94E /* ReminderApp.swift */,
-				CDC5010326EEF69500B0D94E /* ContentView.swift */,
 				CDC5010526EEF69800B0D94E /* Assets.xcassets */,
 				CDC5010A26EEF69800B0D94E /* Persistence.swift */,
 				CDC5010F26EEF69800B0D94E /* Info.plist */,
@@ -73,6 +134,18 @@
 				CDC5010826EEF69800B0D94E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDC5011626EEFB4800B0D94E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDC5010326EEF69500B0D94E /* ContentView.swift */,
+				CD6126ED26EFD4530007865D /* List */,
+				CD7485BD26EF579100BE7B84 /* Friend */,
+				CD3E70F526EF1C7B002F79B4 /* addNew.swift */,
+				CD8A710926F88CF00082B080 /* InfoOverlayView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +218,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC5010B26EEF69800B0D94E /* Persistence.swift in Sources */,
+				CD3E70FC26EF2345002F79B4 /* Person+CoreDataClass.swift in Sources */,
+				CD65406026F1D1FC00EA1CC4 /* Notice.swift in Sources */,
+				CD7485B826EF532200BE7B84 /* PersonRowView.swift in Sources */,
+				CD8A710726F880E80082B080 /* NotificationManager.swift in Sources */,
+				CDC5011826EEFB8600B0D94E /* friendList.swift in Sources */,
 				CDC5010426EEF69500B0D94E /* ContentView.swift in Sources */,
+				CD6126EF26EFD47B0007865D /* FriendHost.swift in Sources */,
+				CD7485BB26EF578700BE7B84 /* PersonDetail.swift in Sources */,
+				CD7485C126EF64F700BE7B84 /* FriendSummary.swift in Sources */,
+				CD3E70FD26EF2345002F79B4 /* Person+CoreDataProperties.swift in Sources */,
+				CD8A710A26F88CF00082B080 /* InfoOverlayView.swift in Sources */,
 				CDC5010226EEF69500B0D94E /* ReminderApp.swift in Sources */,
+				CD3E70F626EF1C7B002F79B4 /* addNew.swift in Sources */,
 				CDC5010E26EEF69800B0D94E /* Reminder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
