@@ -44,8 +44,8 @@ final class NotificationManager: ObservableObject {
         let DayFormatter = DateFormatter()
         DayFormatter.dateFormat = "dd"
         let day = formatter.string(from: birthday)
-        dateComponents.hour = 19
-        dateComponents.minute = 31
+        dateComponents.hour = 00
+        dateComponents.minute = 05
         dateComponents.month = Int(month)
         dateComponents.day = Int(day)
         
